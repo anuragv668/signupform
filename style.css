@@ -8,3 +8,32 @@
   font-family: norse-bold;
   src: url("./assets/font/Norse-Bold.otf");
 }
+
+legend {
+  font-size: 1.6em;
+  margin: 1rem 0;
+}
+
+legend,
+label {
+  color: #1f2937;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+fieldset > div {
+  flex-basis: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
