@@ -9,6 +9,35 @@
   src: url("./assets/font/Norse-Bold.otf");
 }
 
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.first-half {
+  min-width: 500px;
+  background-image: url("./assets/background/halie-west-25xggax4bSA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-sec {
+  position: relative;
+  top: 20%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.ltext {
+  top: 15%;
+  position: relative;
+  color: white;
+  font-family: Norse-Bold;
+  font-size: 8rem;
+}
+
 legend {
   font-size: 1.6em;
   margin: 1rem 0;
