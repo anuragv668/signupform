@@ -46,17 +46,18 @@ body {
 .para {
   font-size: 1.5rem;
   font-weight: 500;
+  padding: 2rem;
 }
 
 .form-body {
   background-color: white;
   box-shadow: 5px 5px 10px #E5E7EB;
-  height: 35vh;
+  height: 40vh;
 }
 
 legend {
   font-size: 1.6em;
-  margin: 1rem 0;
+  margin-top: 1rem;
 }
 
 legend,
@@ -65,22 +66,33 @@ label {
 }
 
 fieldset {
+  max-height: 100%;
   border: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 1rem 2rem;
 }
 
 fieldset > div {
   flex-basis: calc(50% - 10px);
   display: flex;
   flex-direction: column;
+  padding: 5px;
   padding-right: 10%;
 }
 
 input {
   border: 1px solid #E5E7EB;
-  border-radius: 5px;
+  border-radius: 10px;
+  height: 2rem;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 5px #999;
 }
 
 .btn {
@@ -91,6 +103,11 @@ input {
   height: 2.5rem;
   width: 11rem;
   font-weight: bold;
+  margin: 1rem 2rem;
+}
+
+.end-note {
+  margin-left: 2rem;
 }
 
 .login {
