@@ -50,6 +50,8 @@ body {
 
 .form-body {
   background-color: white;
+  box-shadow: 5px 5px 10px #E5E7EB;
+  height: 35vh;
 }
 
 legend {
@@ -79,4 +81,19 @@ fieldset > div {
 input {
   border: 1px solid #E5E7EB;
   border-radius: 5px;
+}
+
+.btn {
+  color: white;
+  background-color: #596D48;
+  border-radius: 5px;
+  border: none;
+  height: 2.5rem;
+  width: 11rem;
+  font-weight: bold;
+}
+
+.login {
+  color: #596D48;
+  font-weight: bold;
 }
