@@ -95,7 +95,7 @@ input:focus {
   box-shadow: 2px 2px 5px #999;
 }
 
-.btn {
+#btn {
   color: white;
   background-color: #596D48;
   border-radius: 5px;
@@ -113,4 +113,8 @@ input:focus {
 .login {
   color: #596D48;
   font-weight: bold;
+}
+
+.error {
+  border: 1px solid red;
 }
